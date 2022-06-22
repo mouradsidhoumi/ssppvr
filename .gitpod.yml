@@ -1,4 +1,3 @@
-# Doc https://www.gitpod.io/docs/config-gitpod-file
 
 tasks:
   - init: npm install && npm run build
@@ -9,3 +8,7 @@ tasks:
 ports:
   - port: 3000
     onOpen: open-browser
+    
+vscode:
+  extensions:
+    - svelte.svelte-vscode
